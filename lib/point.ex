@@ -1,4 +1,8 @@
 defmodule Point do
+  def new(row, col) do
+    {row, col}
+  end
+
   def move_down({row, col}) do
     {row + 1, col}
   end
